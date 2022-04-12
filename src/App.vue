@@ -19,7 +19,7 @@ export default {
 <style lang="scss">
 @import "./scss/main.scss";
 .appContainer{
-  max-width:1440px ;
+  max-width:1200px ;
   margin: auto;
 }
 

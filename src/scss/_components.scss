@@ -1,0 +1,26 @@
+@mixin  button-bar{
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    @include respond(mobile) {
+      position: relative;
+      order: 3;
+      display: flex;
+    }
+      button {
+      border: none;
+      background-color: transparent;
+      color: $moderate-blue;
+      font-weight: 700;
+      cursor: pointer;
+      margin-left:2rem;
+      &:hover{
+          filter: opacity(40%);
+      }
+  
+      img {
+        padding-right: 0.5rem;
+        height: 100%;
+      }
+    }
+}
